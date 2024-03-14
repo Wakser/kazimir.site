@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/map.css">
     <title>Document</title>
 </head>
 <body>
-    <img class="map_png" src="img/map.png" alt="карта">
+    <header id="header" class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <img class="logo__img" src="https://kbp.by/wp-content/uploads/2022/02/gerb-kbp-full-1000x1000-1.png" alt="Логотип">
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                      <a class="my_link" href="">Галоўная</a>
+                    </li>
+                    <li class="menu__item">
+                      <form action="">
+                        <a class="my_link" href="map.html">Карта</a>
+                      </form>
+                    </li>
+                    <li class="menu__item">
+                      <a class="my_link" href="">Маршрут</a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="my_link" href="">Помнік</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="map_holder">
+        <img class="map_png" src="img/map.png" alt="карта">
+    </div>
 </body>
 </html>
